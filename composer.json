@@ -5,5 +5,15 @@
         "installer-paths": {
             "app/widgets/{$name}": ["toro/generic-table-widget"]
         }
+    },
+    "autoload": {
+        "psr-0" : {
+            "Toro_" : ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master-dev"
+        }
     }
 }
