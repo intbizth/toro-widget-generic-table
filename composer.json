@@ -1,9 +1,9 @@
 {
-    "name": "toro/generic-table",
+    "name": "toro/generic-table-widget",
     "type": "toro-widget",
     "extra": {
         "installer-paths": {
-            "app/widgets/{$name}": ["toro/generic-table"]
+            "app/widgets/{$name}": ["toro/generic-table-widget"]
         }
     }
 }
