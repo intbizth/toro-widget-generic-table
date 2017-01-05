@@ -1,13 +1,8 @@
 {
     "name": "toro/generic-table-widget",
-    "type": "library",
+    "type": "toro-widget",
     "require": {
         "composer/installers": "~1.0"
-    },
-    "extra": {
-        "installer-paths": {
-            "app/widgets/{$name}": ["toro/generic-table-widget"]
-        }
     },
     "autoload": {
         "psr-0" : {
