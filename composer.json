@@ -1,9 +1,6 @@
 {
     "name": "toro/generic-table-widget",
     "type": "toro-widget",
-    "require": {
-        "composer/installers": "~1.0"
-    },
     "autoload": {
         "psr-0" : {
             "Toro_" : ""
