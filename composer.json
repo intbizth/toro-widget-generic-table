@@ -1,6 +1,9 @@
 {
     "name": "toro/generic-table-widget",
-    "type": "toro-widget",
+    "type": "library",
+    "require": {
+        "composer/installers": "~1.0"
+    },
     "extra": {
         "installer-paths": {
             "app/widgets/{$name}": ["toro/generic-table-widget"]
